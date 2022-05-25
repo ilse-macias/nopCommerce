@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace nopCommercePlaywright.Constants
+{
+    public static class CommonConstants
+    {
+        public const string Url = "https://demo.nopcommerce.com/";
+    }
+}
