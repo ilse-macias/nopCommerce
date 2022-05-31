@@ -35,7 +35,8 @@ namespace nopCommercePlaywright
             await login.ClickOnRegisterButton();
 
             Register register = new Register(page);
-            await register.FillUpRegisterFields(RegisterConstants.FirstName, RegisterConstants.LastName, RegisterConstants.Email);
+            await register.FillUpRegisterFields(RegisterConstants.FirstName, RegisterConstants.LastName, 
+                RegisterConstants.Email, RegisterConstants.Password, RegisterConstants.ConfirmPassword);
           
             Assert.Pass();
         }
